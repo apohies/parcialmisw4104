@@ -3,8 +3,9 @@ import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { importProvidersFrom } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 bootstrapApplication(AppComponent, {
-  providers: [importProvidersFrom(HttpClientModule)],
+  providers: [importProvidersFrom(HttpClientModule,CommonModule)],
 }).catch((err) => console.error(err));
 
