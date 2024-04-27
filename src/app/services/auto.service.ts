@@ -2,7 +2,8 @@ import { Injectable, NgModule } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {Auto} from '../models/auto';
-import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { AutoComponent } from '../components/auto/auto.component';
 
 
 

@@ -8,6 +8,8 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
+
+  
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
@@ -27,3 +29,7 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, parcialmisw4104');
   });
 });
+
+
+
+

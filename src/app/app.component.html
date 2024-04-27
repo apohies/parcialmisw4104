@@ -7,41 +7,8 @@
   </div>
 
 
-  <div class="row">
-    <div class="col-md-7">
-      <table class="table">
-        <thead>
-          <tr class="table-dark">
-            <th scope="col">#</th>
-            <th scope="col">Marca</th>
-            <th scope="col">Linea</th>
-            <th scope="col">Modelo</th>
-          </tr>
-        </thead>
-        <tbody>
+<app-auto></app-auto>
 
-          <tr *ngFor="let auto of autos">
-            <th scope="row">{{ auto.id}}</th>
-            <td>{{ auto.marca}}</td>
-            <td>{{ auto.linea}}</td>
-            <td>{{ auto.modelo}}</td>
-          
-          </tr>
-        
-          <div>Total {{marca}}: {{contarAutos(marca)}}</div>
-          <div>Total {{marca2}}: {{contarAutos(marca2)}}</div>
-          <div>Total {{marca3}}: {{contarAutos(marca3)}}</div>
-
-        </tbody>
-      </table>
-    </div>
-   
-    <div class="col-md-5">
-
-    </div>
-
-    <div id="footer">Contact us : +57 3102105253 - info<span>{{'@'}}</span>tusegundazo.com - <span>{{'@'}}</span>tusegundazo</div>
-
-  </div>
+  <div id="footer">Contact us : +57 3102105253 - info<span>{{'@'}}</span>tusegundazo.com - <span>{{'@'}}</span>tusegundazo</div>
  
 </div>
